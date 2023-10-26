@@ -1,0 +1,48 @@
+:root {
+  background-color:#070506;
+  --bkgd-blk: #070506;
+}
+
+/* ===== HEADER ===== */
+
+.header-flexbox {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  /* padding-right: 2rem; */
+}
+
+.header-headline h1, .header-headline h2 {
+  color: #ffffff;
+  position: absolute;
+  /* color: #aaccbf; */
+  /* color: #b3d1c8; */
+}
+
+.header-headline h1 {
+  font-size: 11rem;
+  left: 3rem;
+  top: 2rem;line-height: 12.5rem;
+  text-shadow: 1px 1px 1px var(--bkgd-blk);
+}
+
+.header-headline h2 {
+  font-size: 2.5rem;
+  text-align: left;
+  left: 3.5rem;
+  width: 50%;
+  top: 47rem;
+}
+
+.header-background-blur {
+  height: 800px;
+  width: 850px;
+  background-color: #b3d1c8;
+  position: absolute;
+  z-index: -1;
+  top: 10rem;
+  left: 49.5rem;
+  border-radius: 30%;
+  filter: blur(85px)
+
+}
