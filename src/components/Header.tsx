@@ -10,9 +10,9 @@ const Header = () => {
           <img src="/squiddyProfile2.png" alt="" className="header" />
         </div>
       </div>
-        <div>
+        {/* <div>
           <circle className="header-background-blur"/>
-        </div>
+        </div> */}
     </>
   );
 };
